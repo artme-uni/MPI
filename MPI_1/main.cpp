@@ -9,8 +9,8 @@
 int main(int argc, char **argv)
 {
 
-    std::ifstream in("/Users/twiggy/Doc_Git/Concurrent/MPI/MPI_1/cmake-build-debug/input.txt");
-    std::ofstream out("/Users/twiggy/Doc_Git/Concurrent/MPI/MPI_1/cmake-build-debug/output.txt");
+    std::ifstream in("input.txt");
+    std::ofstream out("output.txt");
 
     if (!in.is_open())
     {

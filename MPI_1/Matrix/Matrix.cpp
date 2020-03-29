@@ -1,5 +1,4 @@
 #include "Matrix.h"
-#include <mpi.h>
 
 Column Matrix::mult(const Column &cur) const
 {
